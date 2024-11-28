@@ -1,0 +1,286 @@
+header {
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.category {
+    padding: 100px;
+}
+.cate-top {
+    margin-bottom: 50px;
+}
+.cate-top p {
+    font-family: Montserrat, sans-serif;
+    margin: 0 12px;
+    font-size: 14px;
+    cursor: pointer;
+    color:#5e5e5e;
+}
+.cate-top p:hover {
+    color:black;
+}
+.cate-left {
+    width:20%;
+}
+.cate-right {
+    width:80%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.cate-right-top-item:first-child {
+    flex:2;
+    font-size:16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+.cate-right-top-item p {
+    font-size:21px;
+    font-family: Montserrat, sans-serif;
+    font-weight:600;
+}
+.sort {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 170px;
+    height: 30px;
+    padding:5px;
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.custom-select {
+    position: relative;
+}
+.select-box {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:170px;
+    height:35px;
+    font-family: Montserrat, sans-serif;
+}
+.arrow {
+    margin-left: 40px;
+    transition: transform 0.2s ease-in-out;
+}
+.options {
+    margin-top: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+    width: 170px;
+    border-radius: 10px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+.select-value {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color:#5d5d5d;
+    cursor: pointer;
+}
+.option {
+    font-family: Montserrat, sans-serif;
+    padding-bottom:15px;
+    font-size:13px;
+    padding: 10px;
+    cursor: pointer;
+    color:#484848;
+}
+.option:hover {
+    font-weight: bold;
+    font-size:14px;
+}
+.options.active {
+    display: block;
+    z-index: 1;
+}
+  
+.arrow.up {
+    transform: rotate(180deg);
+}
+.cate-right-content {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top:20px;
+    justify-content: space-between;
+}
+.cate-right-content-item {
+    width: calc(25%-12px);
+    padding-right: 20px;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+.image-wrapper {
+    position: relative;
+    width: 100%;
+}
+.cate-right-content-item img {
+    width: 100%;
+}
+.cate-right-content-item h3 {
+    font-size:15px;
+    color:#434343;
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+}
+.cate-right-content-item p {
+    font-size: 18px;
+    padding-top:5px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+.cate-right-content-item span {
+    padding-left: 80px;
+}
+.cate-right-content-item i {
+    height:30px;
+    padding-top:5px;
+    width: 40px;
+    padding-left: 12px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.cate-right-content-item i:hover {
+    background-color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+.cate-right-content-item.prod1 .image-wrapper img:hover {
+    content: url(../images/sp1hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod2 .image-wrapper img:hover {
+    content: url(../images/sp2hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod3 .image-wrapper img:hover {
+    content: url(../images/sp3hovers.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod4 .image-wrapper img:hover {
+    content: url(../images/sp4hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod5 .image-wrapper img:hover {
+    content: url(../images/sp5hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod6 .image-wrapper img:hover {
+    content: url(../images/sp6hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod7 .image-wrapper img:hover {
+    content: url(../images/sp7hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod8 .image-wrapper img:hover {
+    content: url(../images/sp8hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod9 .image-wrapper img:hover {
+    content: url(../images/sp9hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod10 .image-wrapper img:hover {
+    content: url(../images/sp10hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod11 .image-wrapper img:hover {
+    content: url(../images/sp11hover.webp);
+    transition: transform 0.5s;
+}
+.cate-right-content-item.prod12 .image-wrapper img:hover {
+    content: url(../images/sp12hover.webp);
+    transition: transform 0.5s;
+}
+.best-seller {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #a30f1b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+.new {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f09760;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+.product-info {
+    padding-top: 10px;
+}
+.color-options {
+    display: flex;
+    gap: 5px;
+}
+.color-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+}
+.color-box.selected::after {
+    content: '✔';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+}
+.heart {
+    cursor: pointer;
+    font-size: 20px;
+    color: #bbb;
+    transition: color 0.3s;
+}
+.heart.active {
+    color: red;
+}
+.pages {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 300px;
+}
+.page:nth-child(2) {
+    background-color:black;
+    color:white;
+}
+.page {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    font-size:12px;
+    margin-left: 17px;
+    color:rgb(81, 81, 81);
+}
+.page:hover {
+    background-color: #171717;
+    color: white;
+}

@@ -1,0 +1,84 @@
+header {
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+.signup {
+    padding:100px;
+    font-family: Montserrat, sans-serif;
+}
+.signup h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 550;
+    text-align:center;
+}
+.signup-info-cust {
+    width:50%;
+}
+.signup-info-pass {
+    width:50%;
+}
+.signup-info-cust-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    color:rgb(99, 96, 96);
+}
+.item input, select {
+    border: 1px solid #cdcdcd;
+    border-radius:5px;
+    width:90%;
+    height:48px;
+    padding: 13px;
+}
+.item input:focus, select:focus {
+    border: 3px solid rgb(111, 171, 223);
+    outline: none;
+}
+.signup-info-pass-grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    color:rgb(99, 96, 96);
+}
+.signup-info-cust-bottom {
+    padding-top: 25px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    color:rgb(125, 122, 122);
+}
+.signup-info-cust-bottom input {
+    height: 85px;
+}
+.container h4 {
+    padding-bottom: 20px;
+}
+.captcha {
+    border: 1px solid #cdcdcd;
+    width: 17%;
+    padding:5px;
+}
+.agree {
+    padding: 20px 0;
+}
+.agree div {
+    padding-bottom: 15px;
+}
+.agree label {
+    padding-left: 10px;
+}
+.button {
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 45px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 13px;
+}
+.button:hover {
+    color: black;
+    background-color: white;
+}
